@@ -1,0 +1,68 @@
+======================================================================
+  CUSTOMER LIFETIME VALUE — EXECUTIVE SUMMARY
+  Simple CLV + BG/NBD + Gamma-Gamma | UCI Online Retail Dataset
+======================================================================
+
+  Total Customers Analyzed  : 3,342
+  Simple CLV Portfolio Value : $10,275,897.15 (3-year NPV)
+  BG/NBD CLV Portfolio Value : $6,239,820.20 (3-year NPV)
+
+----------------------------------------------------------------------
+
+  🏆 RETAIN & REWARD
+     These customers have high historical value AND high predicted future value.
+     Strategy: VIP loyalty program, early access to new products, exclusive offers.
+     Budget priority: HIGH — these customers have the highest ROI on retention spend.
+
+     Customers    : 987 (29.5% of base)
+     Avg CLV      : $5,515.85
+     Total CLV    : $5,444,147.93 (87.2% of portfolio)
+     P(Alive)     : 97.1%
+
+  ⚠️  WIN BACK
+     High historical value but model predicts they may not return.
+     Strategy: Personalized win-back campaign, time-limited discounts,
+     re-engagement email sequence. Act quickly — the longer they're gone,
+     the harder they are to recover.
+     Budget priority: HIGH — recoverable revenue is at stake.
+
+     Customers    : 684 (20.5% of base)
+     Avg CLV      : $1,223.63
+     Total CLV    : $391,562.44 (6.3% of portfolio)
+     P(Alive)     : 96.5%
+
+  🌟 NURTURE & DEVELOP
+     Lower historical spend but model predicts strong future engagement.
+     Strategy: Onboarding sequence, product discovery, loyalty enrollment.
+     These customers are building habits — help them buy more.
+     Budget priority: MEDIUM — high potential, relatively low cost to develop.
+
+     Customers    : 0 (0.0% of base)
+     Avg CLV      : $nan
+     Total CLV    : $0.00 (0.0% of portfolio)
+     P(Alive)     : nan%
+
+  😴 LOW-COST REACTIVATION
+     Low historical value and low predicted future engagement.
+     Strategy: Broad, low-cost reactivation (e.g. email only). If no response
+     after 2 attempts, suppress from active campaigns to protect deliverability.
+     Budget priority: LOW — don't over-invest in this segment.
+
+     Customers    : 1,671 (50.0% of base)
+     Avg CLV      : $605.86
+     Total CLV    : $404,109.83 (6.5% of portfolio)
+     P(Alive)     : 95.7%
+
+======================================================================
+  MODEL COMPARISON
+----------------------------------------------------------------------
+
+  Simple CLV assumes all customers continue buying at their historical
+  rate indefinitely. BG/NBD accounts for churn probability, giving a
+  more conservative (and more accurate) estimate.
+
+  Simple CLV total  : $10,275,897.15
+  BG/NBD CLV total  : $6,239,820.20
+  Difference        : $4,036,076.95 (39.3% overestimate by simple model)
+
+======================================================================
