@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 💰 Customer Lifetime Value (CLV) Analysis
 
 An end-to-end Customer Lifetime Value pipeline using the [UCI Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online+retail). This project demonstrates **two approaches to CLV** — progressing from a simple RFM-based model to the industry-standard **BG/NBD + Gamma-Gamma** probabilistic model — and combines both to create actionable strategic customer segments.
