@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💰 Customer Lifetime Value (CLV) Analysis
 
 An end-to-end Customer Lifetime Value pipeline using the [UCI Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online+retail). This project demonstrates **two approaches to CLV** — progressing from a simple RFM-based model to the industry-standard **BG/NBD + Gamma-Gamma** probabilistic model — and combines both to create actionable strategic customer segments.
@@ -141,3 +142,7 @@ python main.py
 
 Built as part of a data science portfolio project.  
 Background: 15+ years in Marketing Analytics | SQL | Python | Statistical Modeling
+=======
+# customer_lifetime_value
+A CLV model that uses public data and compares the simple method based on AOV with the industry standard BG/NBD + Gamma-Gamma models.
+>>>>>>> 413ce37a5c6498dd747d510bbc4c0597e0504d72
